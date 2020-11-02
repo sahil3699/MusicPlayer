@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9E9E9E">
+    <TextView
+        android:id="@+id/txtreg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Yourself"
+        android:textSize="38sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginLeft="60dp"/>
+
+    <EditText
+        android:id="@+id/edtname1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name (Minimum 3 Characters)"
+        android:inputType="text"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="80dp"
+        android:padding="6dp"
+        android:maxLines="1"
+        android:background="#ffffff"/>
+    <EditText
+        android:id="@+id/edtemail1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:padding="6dp"
+        android:layout_below="@+id/edtname1"
+        android:inputType="text"
+        android:maxLines="1"
+        android:hint=" Email Address"
+        android:background="#fff"
+        />
+    <EditText
+        android:id="@+id/edtmobile1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:padding="6dp"
+        android:layout_below="@+id/edtemail1"
+        android:maxLines="1"
+        android:background="#fff"/>
+    <EditText
+        android:id="@+id/edtPass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:padding="6dp"
+        android:layout_below="@+id/edtmobile1"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:hint="Password (Minimum 4 characters)"
+        android:background="#fff" />
+
+
+    <Button
+        android:id="@+id/btnreg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:padding="6dp"
+        android:layout_below="@+id/edtPass1"
+        android:background=" #442C2E"
+        android:text="Register"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtlog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already Registered ?Then Login"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnreg1"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="25dp"/>
+</RelativeLayout>
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentRelativeLayout"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9E9E9E">
+
+
+
+    <EditText
+        android:id="@+id/edtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="text"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="80dp"
+        android:padding="6dp"
+
+        android:maxLines="1"
+        android:background="#fff"/>
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="50dp"
+        android:padding="6dp"
+        android:layout_below="@+id/edtemail"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:hint="Enter Password"
+        android:background="#fff"
+        />
+    <Button
+        android:id="@+id/btnlogin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:padding="6dp"
+        android:layout_below="@+id/edtPassword"
+        android:background=" #442C2E"
+        android:text="log In"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txtforgot"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Forgot password?"
+        android:layout_below="@+id/btnlogin1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="6dp"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/txtRegiste1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dont have account ?Sign In"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="6dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"/>
+
+</RelativeLayout>
